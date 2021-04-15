@@ -1,0 +1,51 @@
+#grid {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows:60px 60px 60px;
+    gap: 20px; /* permet de grouper les margin autour des éléments */
+    
+  }
+
+  #grid div{    /*  " #grid div " ou "#grid>div" permet de prendre en compte tout les enfants de l'élément "grid" . On pourrait aller plus loin en faisant "#grid div div" */
+    font-size: 20px;
+    color:#ffffff;
+    padding: 20px;
+    display: flex;
+    align-items: center; /*centre verticalement les éléments */
+  } 
+
+  #one {
+    background-color: #b03532;
+  }
+
+  #two {
+      background-color: #33a8a5;
+  }
+
+  #three {
+        background-color: #30997a;
+  }
+
+  #four {
+        background-color: #6a478f;
+  }
+
+  #five {
+        background-color: #da6f2b;
+  }
+
+  #six {
+        background-color: #3d8bb1;
+  }
+
+  #seven {
+        background-color: #e03f3f;
+  }
+
+  #eight {
+        background-color: #59a627;
+  }
+
+  #nine {
+        background-color: #4464a1;
+  }
